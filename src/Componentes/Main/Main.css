@@ -3,3 +3,17 @@
     height: 530px;
     width: 100%;
 }
+
+.seccion1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    gap:100px;
+}
+
+.seccion2{
+    background-color:  rgb(57, 59, 59);
+    height: 300px;
+}

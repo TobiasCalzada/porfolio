@@ -1,11 +1,19 @@
 import "./Main.css"
-import TextoMain from "./partesDelMain/TextoMain";
+import TextoMain from "./PrimeraSeccion/TextoMain/TextoMain";
+import ImgMain from "./PrimeraSeccion/ImgMain/ImgMain";
+import CertificadoCards from "./SegundaSeccion/CertificadoCards/CertificadosCards";
 
 function Main(){
 
     return(
         <div className="contenedorDeMain">
-            <TextoMain></TextoMain>
+            <div className="seccion1">
+                <TextoMain></TextoMain>
+                <ImgMain></ImgMain>
+            </div>
+            <div className="seccion2">
+                <CertificadoCards></CertificadoCards>
+            </div>
         </div>
     )
 }

@@ -1,6 +1,19 @@
-
 .contenedorDeTextoMain{
-    background-color:whitesmoke ;
+    background-color:rgb(57, 59, 59);
+    color:  #e2dede;
+    width: 700px;
+    height: 100%;
+}
+
+/*texto de main*/
+.encabezadoDeMain{
+    width: 400px;
+}
+
+.textoDeMain{
+    width: 500px;
+    height: 90px;
+    margin-top: 10px;
 }
 
 /*boton estilos*/
@@ -12,7 +25,6 @@
     letter-spacing: 1.3px;
     border: none;
     background: none;
-    color: #ededee;
     cursor: pointer;
     position: relative;
     padding: 5px;
@@ -69,7 +81,7 @@
     position: relative;
     display: block;
     padding: 10px 20px;
-    color: #fff;
+    color: #e2dede;
     background-color: #0f1923;
     overflow: hidden;
     box-shadow: inset 0px 0px 0px 1px transparent;
