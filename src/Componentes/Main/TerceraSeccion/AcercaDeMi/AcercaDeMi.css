@@ -1,0 +1,33 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    align-items: center;
+}
+
+.about img{
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.aboutInfo{
+    grid-column: 5/10;
+    padding-left: 7rem;
+}
+
+.aboutInfo h2 {
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.divider{
+    height: 3px;
+    width: 60px;
+    background-color:  rgb(123, 0, 255);
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.aboutInfo p {
+    color: whitesmoke;
+    margin-top: 20px;
+}
