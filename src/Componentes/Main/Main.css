@@ -9,11 +9,21 @@
     align-items: center;
     justify-content: center;
     padding-top: 120px;
-    padding-bottom: 50px;
+    margin-bottom: 104px;
     gap:100px;
+}
+
+.seccion2{
+    padding-bottom: 90px;
 }
 
 .seccion3{
     width: 100%;
     background-color: rgb(57, 59, 59);
+}
+
+.seccion4{
+    width: 100%;
+    height: 800px;
+    background-color:  rgb(36, 37, 37);
 }

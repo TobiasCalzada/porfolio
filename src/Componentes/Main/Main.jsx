@@ -3,6 +3,7 @@ import TextoMain from "./PrimeraSeccion/TextoMain/TextoMain";
 import ImgMain from "./PrimeraSeccion/ImgMain/ImgMain";
 import CertificadoCards from "./SegundaSeccion/CertificadoCards/CertificadosCards";
 import AcercaDeMi from "./TerceraSeccion/AcercaDeMi/AcercaDeMi";
+import Tecnologias from "./CuartaSeccion/Tecnologias/Tecnologias";
 
 function Main(){
 
@@ -17,6 +18,9 @@ function Main(){
             </div>
             <div className="seccion3">
                 <AcercaDeMi></AcercaDeMi>
+            </div>
+            <div className="seccion4">
+                <Tecnologias></Tecnologias>
             </div>
         </div>
     )
