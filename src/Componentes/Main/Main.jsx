@@ -1,9 +1,11 @@
-import "./Main.css"
+import "./Main.css";
 import TextoMain from "./PrimeraSeccion/TextoMain/TextoMain";
 import ImgMain from "./PrimeraSeccion/ImgMain/ImgMain";
 import CertificadoCards from "./SegundaSeccion/CertificadoCards/CertificadosCards";
 import AcercaDeMi from "./TerceraSeccion/AcercaDeMi/AcercaDeMi";
 import Tecnologias from "./CuartaSeccion/Tecnologias/Tecnologias";
+import PaginasWeb from "./QuintaSeccion/PaginasWeb/PaginasWeb";
+
 
 function Main(){
 
@@ -21,6 +23,9 @@ function Main(){
             </div>
             <div className="seccion4">
                 <Tecnologias></Tecnologias>
+            </div>
+            <div className="seccion5">
+                <PaginasWeb></PaginasWeb>
             </div>
         </div>
     )

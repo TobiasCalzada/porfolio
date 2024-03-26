@@ -1,0 +1,15 @@
+.contenedorCardsPaginas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-template-rows: 400px;
+    grid-gap: 80px;
+    padding: 110px 60px 100px 60px;
+    background-color:  rgb(57, 59, 59);
+}
+
+.tituloDePaginas{
+    color:   rgb(123, 0, 255);
+    background-color: rgb(57, 59, 59);
+    text-align: center;
+    padding-top: 70px;
+}
